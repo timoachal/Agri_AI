@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-agri-green-50: #f0fdf4;
+  --color-agri-green-100: #dcfce7;
+  --color-agri-green-500: #22c55e;
+  --color-agri-green-600: #16a34a;
+  --color-agri-green-700: #15803d;
+  --color-agri-green-800: #166534;
+  --color-agri-green-900: #14532d;
+  
+  --color-agri-earth-50: #fffbeb;
+  --color-agri-earth-100: #fef3c7;
+  --color-agri-earth-500: #f59e0b;
+  --color-agri-earth-600: #d97706;
+  --color-agri-earth-800: #92400e;
+}
+
+body {
+  background-color: var(--color-agri-earth-50);
+  color: #1f2937;
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
