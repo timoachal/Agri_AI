@@ -25,3 +25,6 @@ backend/venv/
 backend/env/
 .env
 .pytest_cache/
+
+
+guide.md
